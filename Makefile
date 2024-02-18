@@ -1,2 +1,2 @@
-conway: main.cpp
-	g++ -o conway main.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+conway: main.c
+	gcc -o conway main.c -I/usr/include -D_REENTRANT -lSDL2
